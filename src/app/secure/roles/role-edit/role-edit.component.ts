@@ -14,7 +14,7 @@ import { RoleService } from 'src/app/services/role.service';
 export class RoleEditComponent implements OnInit {
   form!: FormGroup;
   permissions: Permission[] = [];
-  id: number;
+  id!: number;
 
   constructor(
     private formBuilder: FormBuilder,
