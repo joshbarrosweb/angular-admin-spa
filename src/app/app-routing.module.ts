@@ -4,6 +4,7 @@ import { LoginComponent } from './public/login/login.component';
 import { PublicComponent } from './public/public.component';
 import { RegisterComponent } from './public/register/register.component';
 import { DashboardComponent } from './secure/dashboard/dashboard.component';
+import { OrdersComponent } from './secure/orders/orders.component';
 import { ProductCreateComponent } from './secure/products/product-create/product-create.component';
 import { ProductEditComponent } from './secure/products/product-edit/product-edit.component';
 import { ProductsComponent } from './secure/products/products.component';
@@ -33,6 +34,7 @@ const routes: Routes = [
       { path: 'products', component: ProductsComponent },
       { path: 'products/create', component: ProductCreateComponent },
       { path: 'products/:id/edit', component: ProductEditComponent },
+      { path: 'orders', component: OrdersComponent },
     ],
   },
   {

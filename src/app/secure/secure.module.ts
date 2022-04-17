@@ -18,6 +18,7 @@ import { PaginatorComponent } from './components/paginator/paginator.component';
 import { ProductCreateComponent } from './products/product-create/product-create.component';
 import { UploadComponent } from './components/upload/upload.component';
 import { ProductEditComponent } from './products/product-edit/product-edit.component';
+import { OrdersComponent } from './orders/orders.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { ProductEditComponent } from './products/product-edit/product-edit.compo
     ProductCreateComponent,
     UploadComponent,
     ProductEditComponent,
+    OrdersComponent,
   ],
   exports: [SecureComponent],
   imports: [CommonModule, RouterModule, FormsModule, ReactiveFormsModule],
